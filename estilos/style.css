@@ -29,7 +29,6 @@ main {
 }
 
 #login { 
-  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   position: absolute;
@@ -38,6 +37,7 @@ main {
   height: 500px;
   border-radius: 20px;
   overflow: hidden;
+  transform: translate(-50%, -50%);
 }
 
 #login > #imagem {
@@ -66,8 +66,7 @@ div#formulario > p {
 }
 
 div.campo > span {
-  color: white;
-  background-color: black;
+  color: white; 
   font-size: 2em;
   width: 40px;
 }
@@ -75,14 +74,25 @@ div.campo > span {
 div.campo > input {
   background-color: #66b1ae;
   font-size: 1em;
+  height: 100%;
+  width: calc(100% - 44.8px);
+  border: 0px;
+  border-radius: 8px;
+  padding: 4px;
+  transform: translateY(-5px);
+}
+
+div.campo > input:focus-within {
+  background-color: white;
+  outline: none;
 }
 
 form > div.campo {
   background-color: #5f2c82;
   display: block;
-  width: 100%;
+  width: 98%;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 5px 0px;
 }
 
