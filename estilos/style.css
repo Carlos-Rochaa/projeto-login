@@ -34,7 +34,7 @@ main {
   left: 50%;
   position: absolute;
   background-color: white;
-  width: 250px;
+  width: 255px;
   height: 500px;
   border-radius: 20px;
   overflow: hidden;
@@ -64,3 +64,69 @@ div#formulario > h1 {
 div#formulario > p {
   font-size: 0.8em;
 }
+
+div.campo > span {
+  color: white;
+  background-color: black;
+  font-size: 2em;
+  width: 40px;
+}
+
+div.campo > input {
+  background-color: #66b1ae;
+  font-size: 1em;
+}
+
+form > div.campo {
+  background-color: #5f2c82;
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+form label {
+  display: none;
+}
+
+.enter { 
+  display: block;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  background-color:#49a09d ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.enter:hover {
+  background-color: #0a4644;
+}
+
+.botao {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  color: #49a09d;
+  border: 1px solid #0a4644;
+  text-decoration: none;
+  padding-top: 10px;
+  margin-top: 5px;
+
+}
+
+.botao > span {
+  font-size: 1em;
+}
+
+.botao:hover{
+  background-color: #0a4644;
+}
+
